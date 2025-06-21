@@ -14,7 +14,7 @@
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/appurocky/event-management-api.git
-   cd event-management-api```
+   cd event-management-api ```
    
 2. **Install Dependencies**
 	```pip install django

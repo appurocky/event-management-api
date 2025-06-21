@@ -62,4 +62,49 @@ A simple Django REST Framework-based API for managing events and attendees.
 
 ---
 
+📄 Sample API Calls (Plain Format)
+✅ Create Event
+Method: POST
+URL: http://127.0.0.1:8000/api/events
+Headers:
 
+pgsql
+Copy
+Edit
+Content-Type: application/json
+Body:
+
+json
+Copy
+Edit
+{
+  "name": "Tech Conference",
+  "start_time": "2025-07-01T18:00:00Z",
+  "end_time": "2025-07-01T21:00:00Z",
+  "max_attendees": 100
+}
+📋 List Upcoming Events
+Method: GET
+URL: http://127.0.0.1:8000/api/events/
+
+📝 Register Attendee for Event
+Method: POST
+URL: http://127.0.0.1:8000/api/events/<event_id>/register
+Headers:
+
+pgsql
+Copy
+Edit
+Content-Type: application/json
+Body:
+
+json
+Copy
+Edit
+{
+  "name": "Ravi Kumar",
+  "email": "ravi.kumar@gmail.com"
+}
+👥 List Attendees of Event
+Method: GET
+URL: http://127.0.0.1:8000/api/events/<event_id>/attendees

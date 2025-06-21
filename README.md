@@ -50,7 +50,7 @@ A simple Django REST Framework-based API for managing events and attendees.
 
 ---
 
-## 📌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint                                     | Description                         |
 | ------ | -------------------------------------------- | ----------------------------------- |
@@ -62,3 +62,20 @@ A simple Django REST Framework-based API for managing events and attendees.
 
 ---
 
+## Sample API Calls (Plain Format)
+
+1. Create Event
+Method: POST
+
+URL: http://127.0.0.1:8000/api/events
+
+Headers:
+
+Content-Type: application/json
+
+Body:
+{
+  "name": "Tech Conference",
+  "start_time": "2025-07-01T18:00:00Z",
+  "max_attendees": 100
+}

@@ -17,19 +17,19 @@
    cd event-management-api 
    
 2. **Install Dependencies**
-	```pip install django
+	pip install django
 	pip install djangorestframework
 	pip install drf-yasg
 
 3. **Run Migrations**
-    ```python manage.py makemigrations
+    python manage.py makemigrations
     python manage.py migrate
 
 4. **Start the Development Server**
     ```python manage.py runserver
 
 5. **Access the API**
-	```Swagger UI: http://127.0.0.1:8000/swagger/
+	Swagger UI: http://127.0.0.1:8000/swagger/
 
 	   ReDoc UI: http://localhost:8000/redoc/
 

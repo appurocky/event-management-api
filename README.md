@@ -104,7 +104,7 @@ Content-Type: application/json
 
 ---
 
-### 👥 List Attendees of Event
+###  List Attendees of Event
 
 **Method:** GET  
 **URL:** `http://127.0.0.1:8000/api/events/<event_id>/attendees`

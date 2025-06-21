@@ -97,8 +97,8 @@ Content-Type: application/json
 **Body:**
 ```json
 {
-  "name": "Ravi Kumar",
-  "email": "ravi.kumar@gmail.com"
+  "name": "Aravind",
+  "email": "aravindappu997@gmail.com"
 }
 ```
 
